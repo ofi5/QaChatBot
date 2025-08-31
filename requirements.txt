@@ -9,3 +9,4 @@ streamlit
 langchain_community
 python-dotenv
 pypdf
+nest_asyncio

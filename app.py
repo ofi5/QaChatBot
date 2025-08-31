@@ -9,7 +9,6 @@ from langchain.chains.retrieval import create_retrieval_chain
 from langchain.vectorstores import FAISS
 from langchain.document_loaders import PyPDFLoader
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
-import asyncio
 import nest_asyncio
 
 # Apply nest_asyncio to allow nested event loops
