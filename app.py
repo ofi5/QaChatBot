@@ -21,7 +21,7 @@ google_api_key = st.secrets.get("GOOGLE_API_KEY")
 
 st.title("QA ChatBot")
 
-llm = ChatGroq(model="llama3-8b-8192", api_key=groq_api_key)
+llm = ChatGroq(model="gemma2-9b-it", api_key=groq_api_key)
 
 prompt=ChatPromptTemplate.from_template(
 """
